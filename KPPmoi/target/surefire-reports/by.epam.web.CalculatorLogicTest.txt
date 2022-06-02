@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: by.epam.web.CalculatorLogicTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in by.epam.web.CalculatorLogicTest
+testCalculateResultMinus_10  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "by.epam.web.logic.CalculatorHash.isContain(by.epam.web.entity.CalculableParameters)" because "this.hashMap" is null
+	at by.epam.web.CalculatorLogicTest.testCalculateResultMinus_10(CalculatorLogicTest.java:33)
+
+testCalculateResultPlus_1  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "by.epam.web.logic.CalculatorHash.isContain(by.epam.web.entity.CalculableParameters)" because "this.hashMap" is null
+	at by.epam.web.CalculatorLogicTest.testCalculateResultPlus_1(CalculatorLogicTest.java:43)
+
+testCalculateResultPlus_10  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "by.epam.web.logic.CalculatorHash.isContain(by.epam.web.entity.CalculableParameters)" because "this.hashMap" is null
+	at by.epam.web.CalculatorLogicTest.testCalculateResultPlus_10(CalculatorLogicTest.java:23)
+
+testCalculateResultEmpty  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "by.epam.web.logic.CalculatorHash.isContain(by.epam.web.entity.CalculableParameters)" because "this.hashMap" is null
+	at by.epam.web.CalculatorLogicTest.testCalculateResultEmpty(CalculatorLogicTest.java:61)
+
+testCalculateResultError  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "by.epam.web.logic.CalculatorHash.isContain(by.epam.web.entity.CalculableParameters)" because "this.hashMap" is null
+	at by.epam.web.CalculatorLogicTest.testCalculateResultError(CalculatorLogicTest.java:71)
+
+testCalculateResultMinus_1  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "by.epam.web.logic.CalculatorHash.isContain(by.epam.web.entity.CalculableParameters)" because "this.hashMap" is null
+	at by.epam.web.CalculatorLogicTest.testCalculateResultMinus_1(CalculatorLogicTest.java:53)
+
